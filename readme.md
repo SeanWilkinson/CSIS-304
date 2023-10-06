@@ -3,7 +3,7 @@
 <h2>
 <ul>
   <li>
-    <a href="[./project1](https://csis-304-personal-project--seanwilkinson4.repl.co/page%20three.html)">Personal Project</a>
+    <a href="https://csis-304-personal-project--seanwilkinson4.repl.co/page%20three.html">Personal Project</a>
   </li>
   <li>
      <a href="./project2">Project 2</a>
