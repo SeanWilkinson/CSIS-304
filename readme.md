@@ -3,13 +3,13 @@
 <h2>
 <ul>
   <li>
-    <a href="https://csis-304-personal-project--seanwilkinson4.repl.co/page%20three.html">Personal Project</a>
+    <a href="https://csis-304-personal-project--seanwilkinson4.repl.co/">Personal Project</a>
   </li>
   <li>
-     <a href="./project2">Project 2</a>
+     <a href="./project2">Future project</a>
   </li>
   <li> 
-    <a href="./project3">Project 3</a>
+    <a href="./project3">Other Future project</a>
   </li>
 </ul>
 </h2>
