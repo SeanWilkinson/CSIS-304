@@ -1,5 +1,6 @@
 <h1><strong>Future Projects:</strong></h1>
 
+<h2>
 <ul>
   <li>
     <a href="./project1">Project 1</a>
@@ -11,3 +12,4 @@
     <a href="./project3">Project 3</a>
   </li>
 </ul>
+</h2>
