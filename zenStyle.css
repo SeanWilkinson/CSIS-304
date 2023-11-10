@@ -1,0 +1,35 @@
+header {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwYURZMexy1WSqn33YxSUxF17LvZta3VkpQ&usqp=CAU');
+}
+
+h3 {
+  font-family: "Verdana", "Arial", sans-serif;
+  text-align: center;
+  color:#115997
+}
+
+p {
+  font-family: "Luminari", "Helvetica", sans-serif;
+  text-align: justify;
+  letter-spacing: 1px;
+  color: #393737;
+}
+
+h2 {
+  font-family: "Verdana", "Arial", sans-serif;
+  text-align: center;
+  color:#3737be
+}
+
+footer {
+  letter-spacing: 1.25px;
+  background-color: #cea7dd;
+}
+
+body {
+  background-color: #c6c6cd;
+}
+
+div {
+  text-align: center;
+}
