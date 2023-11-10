@@ -44,6 +44,11 @@ body {
     margin-bottom: 10px;
 }
 
+#win-message {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -57,4 +62,8 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+button {
+    margin-top: auto;
 }
