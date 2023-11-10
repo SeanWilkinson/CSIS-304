@@ -71,17 +71,4 @@ function resetGame() {
     });
 }
 
-function resetGame() {
-    gameBoard = ['', '', '', '', '', '', '', '', ''];
-    gameActive = true;
-    currentPlayer = 'X';
-    status.textContent = 'Current Player: X';
-
-    const cells = document.querySelectorAll('.cell');
-    cells.forEach(cell => {
-        cell.textContent = '';
-        cell.style.backgroundColor = '#fff';
-    });
-}
-
 createBoard();
