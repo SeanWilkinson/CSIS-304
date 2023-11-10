@@ -71,4 +71,34 @@ function resetGame() {
     });
 }
 
+function checkWinner() {
+    const winningCombinations = [
+        [0, 1, 2], [3, 4, 5], [6, 7, 8],
+        [0, 3, 6], [1, 4, 7], [2, 5, 8],
+        [0, 4, 8], [2, 4, 6]
+    ];
+
+    for (const combo of winningCombinations) {
+        const [a, b, c] = combo;
+        if (gameBoard[a] !== '' && gameBoard[a] === gameBoard[b] && gameBoard[a] === gameBoard[c]) {
+            const winner = currentPlayer;
+            status.textContent = `Player ${winner} wins!`;
+            gameActive = false;
+            highlightWinnerCells(combo);
+            displayWinMessage(winner);
+            return;
+        }
+    }
+
+    if (!gameBoard.includes('')) {
+        status.textContent = 'It\'s a draw!';
+        gameActive = false;
+    }
+}
+
+function displayWinMessage(winner) {
+    const winMessage = document.getElementById('win-message');
+    winMessage.textContent = `Congratulations, Player ${winner}! You are the winner!`;
+}
+
 createBoard();
