@@ -9,7 +9,7 @@
      <a href="CSS Zen Garden.html">CSS Zen Garden</a>
   </li>
   <li> 
-    <a href="./project3">Other Future project</a>
+    <a href="tictactoe.html">JS Project</a>
   </li>
 </ul>
 </h2>
