@@ -64,16 +64,6 @@ function resetGame() {
     currentPlayer = 'X';
     status.textContent = 'Current Player: X';
 
-    board.classList.remove('tie');
-
-    const cells = document.querySelectorAll('.cell');
-    cells.forEach(cell => {
-        cell.textContent = '';
-        cell.style.backgroundColor = '#fff';
-        cell.classList.remove('tie');
-    });
-
-
     const cells = document.querySelectorAll('.cell');
     cells.forEach(cell => {
         cell.textContent = '';
@@ -106,10 +96,6 @@ function checkWinner() {
         board.classList.add('tie');
     }
 
-    const cells = document.querySelectorAll('.cell');
-        cells.forEach(cell => {
-            cell.classList.add('tie');
-        });
 }
 
 
