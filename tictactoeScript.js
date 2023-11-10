@@ -97,6 +97,16 @@ function checkWinner() {
     }
 }
 
+const cells = document.querySelectorAll('.cell');
+        cells.forEach(cell => {
+            cell.classList.add('tie');
+        });
+
+function displayTieMessage() {
+    const winMessage = document.getElementById('win-message');
+    winMessage.textContent = 'It\'s a tie! Better luck next time.';
+}
+
 function displayWinMessage(winner) {
     const winMessage = document.getElementById('win-message');
     winMessage.textContent = `Congratulations, Player ${winner}! You are the winner!`;
