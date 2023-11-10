@@ -1,4 +1,3 @@
-const confetti = require('canvas-confetti');
 const status = document.getElementById('status');
 let currentPlayer = 'X';
 let gameBoard = ['', '', '', '', '', '', '', '', ''];
