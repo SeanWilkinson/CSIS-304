@@ -93,6 +93,7 @@ function checkWinner() {
     if (!gameBoard.includes('')) {
         status.textContent = 'It\'s a draw!';
         gameActive = false;
+        board.classList.add('tie');
     }
 }
 
