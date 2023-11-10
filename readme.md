@@ -3,7 +3,7 @@
 <h2>
 <ul>
   <li>
-    <a href="index.html">Personal Project</a>
+    <a href="personalProject.html">Personal Project</a>
   </li>
   <li>
      <a href="CSS Zen Garden.html">CSS Zen Garden</a>
