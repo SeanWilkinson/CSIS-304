@@ -100,15 +100,6 @@ function checkWinner() {
 function displayWinMessage(winner) {
     const winMessage = document.getElementById('win-message');
     winMessage.textContent = `Congratulations, Player ${winner}! You are the winner!`;
-    celebrateWinner();
-}
-
-function celebrateWinner() {
-    confetti({
-        particleCount: 100,
-        spread: 70,
-        origin: { y: 0.6 }
-    });
 }
 
 createBoard();
