@@ -95,12 +95,14 @@ function checkWinner() {
         gameActive = false;
         board.classList.add('tie');
     }
-}
 
-const cells = document.querySelectorAll('.cell');
+    const cells = document.querySelectorAll('.cell');
         cells.forEach(cell => {
             cell.classList.add('tie');
         });
+}
+
+
 
 function displayTieMessage() {
     const winMessage = document.getElementById('win-message');
