@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+
+  color:blue;
+  
+}
+
+img {
+
+  position: relative;
+  left: 33%;
+  
+}
+
+#pageOne {
+
+  position: relative;
+  left: 33%;
+  
+}
+
+#pageTwo {
+
+  position: relative;
+  left: 44%;
+  
+}
+
+#pageThree {
+
+  position: relative;
+  left: 55%;
+  
+}
+
+#mainPageOne {
+
+  position: relative;
+  left: 33%;
+  
+}
+
+#mainPageTwo {
+
+position: relative;
+  left: 44%;
+  
+}
+
+#mainPageThree {
+
+  position: relative;
+  left: 55%;
+  
+}
+
+#Header {
+
+  color: blueviolet;
+  position: relative;
+  left: 42%;
+  
+  
+}
+
+p {
+
+  border: 2px solid blueviolet;
+  background-color: beige;
+  
+}
+
+table {
+
+  border: 2px solid blueviolet;
+  
+}
