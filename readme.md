@@ -1,4 +1,4 @@
-<h1><strong>Future Projects:</strong></h1>
+<h1><strong>Projects List:</strong></h1>
 
 <h2>
 <ul>
