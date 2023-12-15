@@ -98,8 +98,6 @@ function checkWinner() {
 
 }
 
-
-
 function displayTieMessage() {
     const winMessage = document.getElementById('win-message');
     winMessage.textContent = 'It\'s a tie! Better luck next time.';
