@@ -60,6 +60,7 @@
       </li>
       <li>
         <a href="finalProject.html">Final Project</a>
+      </li>
     </ul>
   </div>
 
