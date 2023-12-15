@@ -58,6 +58,8 @@
       <li> 
         <a href="tictactoe.html">JS Project</a>
       </li>
+      <li>
+        <a href="finalProject.html">Final Project</a>
     </ul>
   </div>
 
